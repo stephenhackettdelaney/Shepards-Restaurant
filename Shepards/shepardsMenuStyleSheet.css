@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    height: 71px;
+    margin-bottom: 60px;
+    background-color: rgb(244, 250, 255);
+}
+
+/* Header Details, Logo, Number and Nav Bar */
+
+header hgroup h1, h3, h4 {
+    font-weight: normal;
+    color: #000;
+    line-height:21.6px;
+}
+
+header hgroup h1 {
+    position: absolute;
+    top: 16px;
+    left: 14px;
+    font-family: Gloria Hallelujah, sans serif;
+    font-size: 240%;
+}
+
+header hgroup h3, header hgroup h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 180%;
+}
+
+header hgroup h3 {
+    position: absolute;
+    top: 45px;
+    left: 32px;
+}
+
+header hgroup h4 {
+    position: absolute;
+    top: 18px;
+    right: 14px;
+}
+
+nav {
+    position: absolute;
+    top: 71px;
+    width: 100%;
+    border-top: solid 5px rgb(234, 255, 201);
+}
+
+nav ul {
+    width: 100%;
+}
+
+nav ul li {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 15px;
+    display: inline-block;
+    height: 45px;
+    width: 50%;
+    list-style-type: none;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+nav ul li:nth-child(2), nav ul li:nth-child(3) {
+    display: none;
+}
+
+nav ul li a {
+    font-size: 240%;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:active, nav ul li:active {
+    /* background-color: white; */
+    color: rgb(234, 255, 201);
+}
+
+main section img {
+    width: 100%;
+    height: auto;
+}
+
+main section ul {
+    padding-left: 5%;
+}
+
+
+main section h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 275%;
+    color: #000;
+    text-align: left;
+    padding: 2.5% 0 2.5% 5%;
+    margin: 0 auto;
+}
+
+
+main section li h2{
+    color: #000;
+}
+
+main section li {
+    font-size: 160%;
+    list-style-type: none;
+    padding: 10px 0 5px 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #000;
+}
+
+main section ul li.price  {
+    padding-bottom:5%;
+    border-bottom: 2px solid rgb(255, 254, 254);
+}
+
+main section.starters ul li.price:nth-child(13){
+    border-bottom: none;
+}
+
+main section.mains ul li.price:nth-child(18){
+    border-bottom: none;
+}
+
+main section.sides ul li.price:nth-child(8){
+    border-bottom: none;
+}
+
+main section p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #000;
+    font-size: 200%;
+    max-width: 60%;
+    padding: 10px;
+    line-height: 25px;
+    margin: 0 auto;
+}
+
+section.starters {
+    background-color: rgb(255, 250, 238);
+    padding-top: 2px;
+}
+
+
+section.starters h1 {
+    background-color: rgb(255, 238, 192);
+}
+
+section.starters ul li.price {
+    border-bottom: 1px solid  rgb(255, 177, 9);
+}
+
+section.mains {
+    background-color: rgb(244, 250, 255);
+}
+
+section.mains h1 {
+    background-color: rgb(169, 194, 250);
+}
+
+section.mains ul li.price {
+    border-bottom: 1px solid rgb(174, 216, 252);
+}
+
+section.sides {
+    background-color: rgb(253, 248, 255);
+}
+
+section.sides h1 {
+    background-color: rgb(182, 145, 196);
+}
+
+section.sides ul li.price {
+    border-bottom: 1px solid rgb(228, 193, 241);
+}
+
+
+section.blurb article {
+    background-color: #fff;
+}
+
+section article {
+    width: 100%;
+    background-color: rgb(244, 250, 255);
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    
+}
+
+section article h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(211, 211, 211);
+    font-size: 200%;
+    border-bottom: 1px solid rgb(216, 224, 204);
+    text-align: left;
+    padding: 5px 0;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+
+section article h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(211, 211, 211);
+}
+
+section article p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    font-size: 200%;
+    max-width: 60%;
+    padding: 10px;
+    line-height: 25px;
+    margin: 0 auto;
+}
+
+section.lastSection article {
+    float: left;
+    background-color: black;
+}
+
+section article li {
+    font-size: 190%;
+    list-style-type: none;
+    padding: 10px 0 5px 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
+footer section {
+    margin: 25px 0;
+}
+
+footer section.policySection ul  {
+    display: inline-block;
+    width: 50%;
+}
+
+footer section.policySection ul li  {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 10px 0;
+    padding-left: 20px;
+    font-size: 160%;
+}
+
+footer section.social ul li a img {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    margin: 0 8px;
+}
+
+footer section.social ul   {
+    text-align: center;
+}
+
+footer section.social ul li  {
+    display: inline-block;
+}
+
+footer section.termsAndConditionsSection {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
